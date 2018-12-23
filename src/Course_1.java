@@ -1,4 +1,5 @@
-// Getting to know Primitive Data Type: int, byte, short, float, double, long
+// Getting to know Primitive Data Type: int, byte, short, float, double, long, boolean, char
+
 
 public class Course_1 {
     public static void main(String[] args) {
@@ -20,8 +21,10 @@ public class Course_1 {
 
         long result = 50_000L + 10L * (myByte + myShortVal + integer);
 
+        boolean isJava = true; // true or false
 
-        char x = '\u00A9'; // Unicode Character search for unicode characters for more information on google
+        char x = '\u00AE'; // Unicode Character search for unicode characters for more information on google
+
 
     }
 }
