@@ -31,5 +31,11 @@ public class Course_1 {
 
                             // Parsing the strings and treating as numbers to math
         System.out.println(Integer.parseInt(number1) +  Integer.parseInt(number2));
+
+                      // true?  if true        if false
+        String check = isJava? "Java is Fun" : "No its not"; // Tartary comparison
+
+
     }
+
 }
