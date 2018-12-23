@@ -24,7 +24,12 @@ public class Course_1 {
         boolean isJava = true; // true or false
 
         char x = '\u00AE'; // Unicode Character search for unicode characters for more information on google
+        System.out.println("Hello world \u00AE Kida");
 
+        String number1 = "10";  // These are strings
+        String number2 = "5";
 
+                            // Parsing the strings and treating as numbers to math
+        System.out.println(Integer.parseInt(number1) +  Integer.parseInt(number2));
     }
 }
