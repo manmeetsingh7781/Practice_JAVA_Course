@@ -1,4 +1,4 @@
-// Getting to know Primitive Data Type: int, byte, short, float, double, long
+// Getting to know Primitive Data Type: int, byte, short, long
 
 public class Course_1 {
     public static void main(String[] args) {
@@ -15,7 +15,8 @@ public class Course_1 {
 
             // width 64
         long myLongVal = 922_33_72_03_68_54_77_58_9L;  // put "L" or "l" in the end so computer knows its long..... -9223372036854775808 to 9223372036854775807
-
+        
+        
         long result = 50_000L + 10L * (myByte + myShortVal + integer);
         System.out.println(result);
 
